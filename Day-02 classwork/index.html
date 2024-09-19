@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+      function firstdiv() {
+        return (
+          <div classname={"mainDiv"}>
+            <h1>H1 Tag</h1>
+
+         
+            <div classname={"firstDivWithPtag"}>
+                <h3>First Div With P Tag </h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit alias sed soluta tempora. Excepturi accusamus hic reprehenderit illo, dolor totam vel, nulla ipsam consequatur itaque ducimus quam! Fuga, earum dolorem.</p>
+            </div>
+
+            <div classname={"secondDivWithPtagAndAnchortag"}>
+                <h3>Second Div With P Tag and Anchor Tag</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minus nesciunt corrupti. Aliquam similique beatae ullam dolore laborum iste eum iusto atque quod, amet architecto nihil culpa nobis, pariatur tempora!</p>
+              <a href="https://www.geekster.in/home/new-full-stack-web-development-program">Geekster</a>
+            </div>
+
+            <div classname={"lastDivWithPtag"}>
+                <h3>Last Div With P Tag </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi cum eius architecto vel facere, quod quaerat assumenda. Repellendus, in. Repellendus itaque exercitationem nemo velit! Facilis repellendus molestias veritatis voluptates eius.</p>
+            </div>
+          </div>
+        );
+      }
+
+
+      ReactDOM.render(firstdiv(), document.getElementById("root"));
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+    background-color: #909497;
+    height: 100vh;
+    width: auto;
+    text-align: center;
+    gap: 20px;
+   
+}
+h1{
+    padding: 10px;
+}
+h3{
+    padding: 10px;
+}
+div{
+    padding: 20px;
+}
